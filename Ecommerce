@@ -1,0 +1,76 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savannah Laser Cutting Hut Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Savannah Laser Cutting Hut Ltd</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                    <li><a href="/cart">Cart</a></li>
+                    <li><a href="/wishlist">Wishlist</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Savannah Laser Cutting Hut Ltd</h2>
+                <p>Your partner in precision engineering solutions</p>
+            </div>
+        </section>
+        <section class="product-details">
+            <div class="container">
+                <h2>CNC Cutting Product</h2>
+                <div class="product-info">
+                    <img src="cnc-product.jpg" alt="CNC Cutting Product">
+                    <div class="description">
+                        <h3>CNC Cutting Service</h3>
+                        <p>Experience precision and efficiency with our CNC cutting service at Savannah Laser Cutting Hut Ltd. Utilizing advanced technology and skilled craftsmanship, we offer custom CNC cutting solutions tailored to your specifications. Whether you need intricate designs cut from various materials or large-scale production runs, our team is committed to delivering superior results.</p>
+                        <p>Explore our CNC cutting capabilities and discover how we can bring your designs to life with precision and quality.</p>
+                        <a href="/contact" class="btn">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+              
+                <div class="product-list">
+                    <div class="product-card">
+                        <img src="Finished CNC.jpeg" alt="CNC Cutting">
+                        <h3>Product 1</h3>
+                        <p>This is one of many samples we have done , concerning cnc cutting.</p>
+                        <a href="/products/product1" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Savannah Laser Cutting Hut Ltd. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
